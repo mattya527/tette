@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Tette</string>
+    <string name="tab_text_1">午前</string>
+    <string name="tab_text_2">午後</string>
+    <string name="button1">予定を入れる</string>
+    <string name="action00">食事</string>
+    <string name="action01">散歩</string>
+    <string name="action02">運動</string>
+    <string name="action03">病院</string>
+    <string name="action04">お出かけ</string>
+    <string name="action05">テレビ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_calendar">カレンダー</string>
+    <string name="nav_user">友達</string>
+    <string name="nav_friend">友達</string>
+    <string name="nav_connect">連携</string>
+    <string name="setting">設定</string>
+</resources>

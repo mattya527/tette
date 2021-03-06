@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/item1">
+    <fragment
+        android:id="@+id/item1"
+        android:name="com.example.tette.ui.calendar.CalendarFragment"
+        android:label="@string/nav_calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/item2"
+        android:name="com.example.tette.ui.friend.FriendFragment"
+        android:label="@string/nav_friend"
+        tools:layout="@layout/fragment_friend" />
+
+    <fragment
+        android:id="@+id/item3"
+        android:name="com.example.tette.ui.connect.ConnectFragment"
+        android:label="@string/nav_connect"
+        tools:layout="@layout/fragment_connect" />
+    <fragment
+        android:id="@+id/item4"
+        android:name="com.example.tette.ui.setting.SettingFragment"
+        android:label="@string/setting"
+        tools:layout="@layout/fragment_setting"/>
+</navigation>
